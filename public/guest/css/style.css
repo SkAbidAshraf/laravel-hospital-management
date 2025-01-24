@@ -1,0 +1,498 @@
+/* ==========================================
+        Start Global Section
+=============================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto+Condensed:wght@300;700&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* mdn booststrap */
+
+
+
+
+/* ==========================================
+        common style
+=============================================*/
+
+
+/* CSS */
+.common-btn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #00d6fc;;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 5px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.common-btn:hover,
+.common-btn:focus {
+  background-color: #00c0e1;;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: #fff;
+  margin: 5px;
+}
+
+.common-btn:hover {
+  transform: translateY(-1px);
+  margin: 5px;
+}
+
+.common-btn:active {
+  background-color: #00c0e1;;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+  color: #fff;
+  margin: 5px;
+}
+
+
+.submit_button{
+  background-color: #07bcdc;
+  padding: 8px 15px;
+  margin: 20px 0px;
+  border-radius:2px;
+  transition:0.3s ;
+  width: 100%;
+  -webkit-transition:0.3s ;
+  -moz-transition:0.3s ;
+  -ms-transition:0.3s ;
+  -o-transition:0.3s ;
+
+}
+.submit_button:hover{
+  background-color: #07bcdc;
+  padding: 8px 15px;
+  width: 100%;
+  margin: 20px 0px;
+  border-radius:2px;
+
+}
+/* ==========================================
+        Start Header Nabar Section
+=============================================*/
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+header .form-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f8f9fa;
+  border: none;
+  box-shadow: none !important;
+  font-size: 25px;
+  font-weight: 700;
+  display: none;
+}
+
+
+::-webkit-scrollbar {
+  background-color: var(--main-color);
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00c0e1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 50px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00c0e1;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+
+header .form-control:focus {
+  background-color: #f8f9fa;
+}
+
+#cross {
+  display: none;
+}
+
+.fa-times {
+  position: absolute;
+  top: 40%;
+  font-size: 25px;
+  color: rgba(58, 56, 56, 0.459);
+}
+
+.search a {
+  color: black;
+}
+
+.dropdown-menu.show {
+  top: 64px;
+}
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00c0e1;
+}
+
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #00c0e1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+  font-style: inherit;
+}
+
+.medical.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999999;
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  background: #fffdf9 !important;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  transition: 0.6s;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: #fff !important;
+}
+
+/* ==========================================
+        Start Header Slider Section
+=============================================*/
+
+.img-fluid {
+  height: 550px;
+}
+
+.carousel-caption {
+  bottom: 7.25rem;
+}
+
+/* ==========================================
+        Start Header Provide Section
+=============================================*/
+.Provide-section .fas {
+  font-size: 50px;
+}
+
+.title-width {
+  width: 8%;
+  height: 4px;
+  background-color: #00c0e1;
+}
+
+/* ==========================================
+        Start Header Exprence  Section
+=============================================*/
+
+.enperence-section .title-width {
+  background-color: #ffffff;
+  width: 25%;
+}
+
+.enperence-section .ex-bg-1 {
+  background-color: #147b8d;
+}
+
+.enperence-section .ex-bg-2 {
+  background-color: #00a5c2;
+}
+
+.enperence-section .ex-bg-3 {
+  background-color: #1390a7;
+}
+
+.enperence-section .ex-bg-4 {
+  background-color: #1ab0ca;
+}
+
+.enperence-section .count {
+  font-size: 4em;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.enperence-section .fas {
+  font-size: 3em;
+}
+
+.enperence-section .title {
+  font-weight: 700;
+}
+
+/* ==========================================
+        Doctor Section
+=============================================*/
+.doctor-section .img-hover {
+  position: relative;
+}
+
+.doctor-section .image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.doctor-section .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #0ebad8c2;
+}
+
+.doctor-section .img-hover:hover .overlay {
+  opacity: 1;
+}
+
+.doctor-section .text {
+  font-size: 25px;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.doctor-section .text a {
+  color: #f8f9fa;
+}
+
+.doctor-section .font-bold {
+  font-weight: 700;
+}
+
+/* ==========================================
+      Start appointment section
+=============================================*/
+
+.appointment-section {
+  background-color: #0ebad8;
+  padding: 50px 0;
+}
+
+/* ==========================================
+      Start Letest News section
+=============================================*/
+.img-container {
+  position: relative;
+}
+
+.letest-news .image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.letest-news .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #21a6d3b9;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.img-container:hover .overlay {
+  height: 100%;
+}
+
+.letest-news .text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+/* ==========================================
+      Start Letest Opening section
+=============================================*/
+.opening-section {
+  background-image: url("../img/opening.jpg");
+  width: 100%;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* background-size: 100% 100%; */
+}
+
+.opening-section .card {
+  background-color: #fbfdffd0;
+}
+
+/* ==========================================
+      Start Footer section
+=============================================*/
+.footer-section .catagori p {
+  border-bottom: 1px solid rgb(116, 107, 107);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+/* ==============================================================================================================
+  Start appointment page
+================================================================================================================*/
+
+.appointment-page-contact {
+  background-image: url("../img/opening.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  /* background-size: 100% 100%; */
+}
+
+.appointment-page-contact .card {
+  background-color: #1c1c1da2;
+}
+
+/* ==============================================================================================================
+  Start Clinic page
+================================================================================================================*/
+.accordion-button:not(.collapsed) {
+  background-color: #00c0e1;
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: #00c0e1;
+  color: #fff;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.progress {
+  height: 2rem;
+}
+
+/* ==============================================================================================================
+  Start Contact Page
+================================================================================================================*/
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 61%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.input-group-text {
+  background-color: #fff;
+  border-right: none;
+}
+
+.progress {
+  border-radius: 0;
+  box-shadow: none;
+  height: 30px !important;
+}
+
+/* sidebar css */
+
+
+.carousel-item img {
+  height: 550px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 26% !important;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.collapse {
+    visibility: visible !important;
+}
+.navbar-logo {
+  height: 60px;
+  width: 75px;
+}
+
+.nav-link.active {
+  color: #007bff; /* Bootstrap primary blue, for example */
+  font-weight: bold;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 72px !important;
+  top: 49%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
