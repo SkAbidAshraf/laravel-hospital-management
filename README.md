@@ -2,7 +2,7 @@
 
 The *Hospital Management System* is built with the Laravel framework. It provides features for user engagement, appointment booking, and appointment management.
 
----
+
 
 ## Features
 
@@ -26,14 +26,14 @@ The *Hospital Management System* is built with the Laravel framework. It provide
 - *Appointment Management*: Approve or reject user appointments.
 - *All Users Page*: View all registered users.
 
----
+
 
 ## Built with
 - *Framework*: Laravel
 - *Frontend*: HTML, CSS, Bootstrap
 - *Database*: MySQL
 
----
+
 
 ## Installation
 
@@ -69,11 +69,13 @@ The *Hospital Management System* is built with the Laravel framework. It provide
    ```bash
    php artisan serve
 
+
+
 ### Login credentials
 - *User*:
--   Email: user@gmail.com
--   password: 12345678
+--   Email: user@gmail.com
+--   password: 12345678
   
 - *Admin*: 
--   Email: admmin@gmail.com
--   password: 12345678
+--   Email: admmin@gmail.com
+--   password: 12345678
