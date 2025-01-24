@@ -68,3 +68,12 @@ The *Hospital Management System* is built with the Laravel framework. It provide
 8. Start the server
    ```bash
    php artisan serve
+
+### Login credentials
+- *User*:
+      Email: user@gmail.com
+      password: 12345678
+  
+- *User*:
+      Email: admmin@gmail.com
+      password: 12345678
